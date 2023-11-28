@@ -1,6 +1,5 @@
 import config.BaseConfig;
 import io.qameta.allure.junit4.DisplayName;
-import org.aeonbits.owner.ConfigFactory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

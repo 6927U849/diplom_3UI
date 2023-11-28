@@ -1,12 +1,10 @@
 package expansion;
 
 import config.BaseConfig;
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
-import java.util.Scanner;
 
 public class WebDriverFactory {
 
@@ -23,7 +21,6 @@ public class WebDriverFactory {
         WebDriver driver;
         switch (browserName) {
             case "chrome":
-               //System.setProperty("C:\\Program Files\\WebDriver\bin");
                 driver = new ChromeDriver();
                 break;
             case "yandex":
